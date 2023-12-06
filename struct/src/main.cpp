@@ -1,14 +1,17 @@
 #include <iostream>
-#include "variables.h"
+#include "struct.h"
 
 using namespace std;
 
 int main(){
 
     cout << "\n" << endl;
-     VariablesFunctions();
+    VariablesFunctions();
+    cout<<"\n";
+    VariablesFunctions_Dyn();     
     cout << "\n" << endl;
-
+    VariablesFunctions_Ptr();     
+    cout << "\n" << endl;
 
 }
 
