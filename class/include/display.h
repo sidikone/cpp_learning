@@ -11,7 +11,7 @@ class Display{
 public:
 
     Display();
-    void display_info_vehicle(Auto const & auto_obj);
+    void display_info_vehicle(Auto const & auto_obj) const;
 
 private:
     std::string m_displ;

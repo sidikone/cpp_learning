@@ -10,11 +10,14 @@
 class Auto{
 
 public:
+
     Auto();
     Auto (std::string, std::string);
     Auto(std::string, std::string, std::string, int);
+    Auto(Auto const &); // copie constructor 
+
     friend void Utils::display_vehicle_info(Auto const &);
-    friend void Display::display_info_vehicle(Auto const &);
+    friend void Display::display_info_vehicle(Auto const &) const;
 
 private:
     std::string m_brand;

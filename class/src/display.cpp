@@ -2,9 +2,9 @@
 #include "display.h"
 using namespace std;
 
-Display::Display(){cout << "Hello Word" << endl;}
+Display::Display(){}
 
-void Display::display_info_vehicle(Auto const & auto_obj){
+void Display::display_info_vehicle(Auto const & auto_obj) const{
 
     cout << "Brand : " << auto_obj.m_brand  << "\t Model : " << auto_obj.m_model << endl;
 

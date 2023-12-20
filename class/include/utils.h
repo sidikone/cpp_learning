@@ -3,9 +3,6 @@
 
 #include <iostream>
 
-// namespace Utils {
-//     void display_vehicle_info();
-// }
 
 class Auto; // forward declaration
 namespace Utils {
